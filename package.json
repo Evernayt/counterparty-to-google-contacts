@@ -143,7 +143,7 @@
     "webpack-merge": "^5.9.0"
   },
   "build": {
-    "productName": "CounterpartyToGoogleContacts",
+    "productName": "Counterparty to Google Contacts",
     "appId": "org.erb.CounterpartyToGoogleContacts",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
