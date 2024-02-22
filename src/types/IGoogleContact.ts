@@ -1,0 +1,33 @@
+export interface IGoogleContact {
+  Name: string;
+  'Given Name': string;
+  'Additional Name': string;
+  'Family Name': string;
+  'Yomi Name': string;
+  'Given Name Yomi': string;
+  'Additional Name Yomi': string;
+  'Family Name Yomi': string;
+  'Name Prefix': string;
+  'Name Suffix': string;
+  Initials: string;
+  Nickname: string;
+  'Short Name': string;
+  'Maiden Name': string;
+  Birthday: string;
+  Gender: string;
+  Location: string;
+  'Billing Information': string;
+  'Directory Server': string;
+  Mileage: string;
+  Occupation: string;
+  Hobby: string;
+  Sensitivity: string;
+  Priority: string;
+  Subject: string;
+  Notes: string;
+  Language: string;
+  Photo: string;
+  'Group Membership': string;
+  'Phone 1 - Type': string;
+  'Phone 1 - Value': string;
+}

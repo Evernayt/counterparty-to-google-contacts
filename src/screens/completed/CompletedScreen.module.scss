@@ -1,0 +1,29 @@
+.container {
+  height: 100vh;
+}
+
+.header {
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  height: 76px;
+}
+
+.excluded_text {
+  color: #eb5c5c;
+}
+
+.body {
+  border-top: 1px solid #e2e1dd;
+  border-bottom: 1px solid #e2e1dd;
+  height: calc(100% - 76px - 70px);
+}
+
+.footer {
+  padding: 0 16px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

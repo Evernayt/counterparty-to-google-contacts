@@ -1,0 +1,30 @@
+.container {
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.table {
+  border-collapse: collapse;
+  font-size: 14px;
+  width: 100%;
+}
+
+.column {
+  border-bottom: 0.5px solid #e2e1dd;
+  padding: 12px 8px;
+  font-weight: 500;
+  white-space: nowrap;
+  text-align: left;
+  user-select: none;
+  cursor: default;
+  background-color: #f5f4f0;
+}
+
+.row {
+  border-bottom: 0.5px solid #e2e1dd;
+}
+
+.cell {
+  padding: 8px;
+}

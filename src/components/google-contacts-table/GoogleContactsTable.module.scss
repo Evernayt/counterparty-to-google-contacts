@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 16px;
+}
+
+.image {
+  height: 200px;
+  object-fit: contain;
+  user-select: none;
+}
+
+.text {
+  text-align: center;
+}

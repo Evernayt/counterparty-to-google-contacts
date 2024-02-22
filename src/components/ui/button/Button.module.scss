@@ -1,0 +1,28 @@
+.base {
+  border: 0;
+  padding: 0 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 600;
+  min-height: 36px;
+
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
+.default {
+  background-color: #ebeae4;
+
+  &:hover {
+    background-color: #dfded8;
+  }
+}
+
+.primary {
+  background-color: #ffd60a;
+
+  &:hover {
+    background-color: #f5cd0a;
+  }
+}
